@@ -1,0 +1,15 @@
+
+body {
+    width: 960px;
+}
+.header {
+    position: sticky;
+}
+.container {
+
+}
+
+.copyright {
+    position: sticky;
+    text-align: center;
+}
