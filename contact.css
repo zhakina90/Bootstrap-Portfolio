@@ -1,4 +1,3 @@
-
 body {
     width: 960px;
     background: #cccccc;
@@ -6,28 +5,22 @@ body {
 }
 .header {
     position: sticky;
+    color: teal;
     height: 80px;
-}
-
-.copyright {
-    position: sticky;
-    text-align: center;
 }
 .nav {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
    background-color: #ffffff;
    width: 960px;
    
-}
+} 
 #name {
     background: #4aaaa5;
     color: #ffffff;
    height: 80px;
-} 
+}
+
 .container {
     border-color: #cccccc;
-}
-h1 {
-    color: #4aaa4a;
-    border-bottom-color: #cccccc;
+    height: 800px;
 }
