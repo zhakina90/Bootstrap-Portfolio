@@ -24,3 +24,13 @@ body {
     border-color: #cccccc;
     height: 800px;
 }
+
+
+button { 
+    background: #4aaaa5;
+    color: #ffffff;
+}
+.copyright {
+    position: sticky;
+    text-align: center;
+}
