@@ -25,9 +25,14 @@ body {
    height: 80px;
 } 
 .container {
+margin-top: 80px;
     border-color: #cccccc;
+    width: 960px;
+    
 }
 h1 {
     color: #4aaa4a;
-    border-bottom-color: #cccccc;
+    border-bottom-color: #cccccc 2px;
+    height: 30px;
+    margin-bottom: 15px;
 }
