@@ -2,6 +2,10 @@
 body {
     width: 960px;
     background: #cccccc;
+    font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    line-height: 34px;
+    font-size: 19px;
     
 }
 .header {
@@ -9,10 +13,7 @@ body {
     height: 80px;
 }
 
-.copyright {
-    position: sticky;
-    text-align: center;
-}
+
 .nav {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
    background-color: #ffffff;
@@ -23,16 +24,29 @@ body {
     background: #4aaaa5;
     color: #ffffff;
    height: 80px;
+  
 } 
 .container {
 margin-top: 80px;
-    border-color: #cccccc;
-    width: 960px;
-    
+    border-color: 1px #cccccc solid;
+    width: 100%;
+    float: left;
+    max-width: 960px;
+    margin-bottom: 40px;
 }
 h1 {
     color: #4aaa4a;
     border-bottom-color: #cccccc 2px;
     height: 30px;
     margin-bottom: 15px;
+}
+
+
+footer {
+    clear: both;
+    position: sticky;
+    text-align: center;
+    color: #ffffff;
+    height: 80px;
+    border-top: #4aaaa5 10px solid;
 }
